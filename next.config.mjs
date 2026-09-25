@@ -1,16 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+
+  basePath: '/my-portfolio',
+  assetPrefix: '/my-portfolio/',
+
   compiler: {
     styledComponents: true,
   },
-  // Enable gzip/brotli compression for JS, CSS and HTML
+
   compress: true,
-  // Remove the X-Powered-By: Next.js response header (minor security + bandwidth)
+
   poweredByHeader: false,
+
   images: {
-    // Serve next-gen formats: browsers get AVIF or WebP automatically
+    unoptimized: true,
     formats: ['image/avif', 'image/webp'],
-    // Allow local /public images to be optimized by next/image
     remotePatterns: [],
   },
 };
