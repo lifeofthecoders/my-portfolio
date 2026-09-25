@@ -1,3 +1,5 @@
+import { withBasePath } from '@/lib/basePath';
+
 export const fr = {
     dir: 'ltr',
     langName: 'Français',
@@ -62,28 +64,28 @@ export const fr = {
                 title: 'LaEcoVida',
                 subtitle: 'Plateforme E-Commerce Principale',
                 description: 'La vitrine principale de LaEcoVida pour le matériel thermique et les pompes à chaleur. Développé avec Next.js pour des performances optimales.',
-                image: '/projects/laecovida.jpg',
+                image: withBasePath('/projects/laecovida.jpg'),
                 link: 'https://merechauffer-ddc.vercel.app/'
             },
             {
                 title: 'Enrgestion',
                 subtitle: 'Système de Gestion Énergétique',
                 description: 'Plateforme de gestion et d\'optimisation des ressources énergétiques. Interface utilisateur intuitive avec des rendus de données en temps réel.',
-                image: '/projects/enrgestion.jpg',
+                image: withBasePath('/projects/enrgestion.jpg'),
                 link: 'https://enrgestion.vercel.app/'
             },
             {
                 title: 'LaEcoVida Admin',
                 subtitle: 'Tableau de Bord Administratif',
                 description: 'Le centre névralgique pour gérer l\'inventaire, les devis et les interactions clients de LaEcoVida. Interface sécurisée et réactive.',
-                image: '/projects/admin.jpg',
+                image: withBasePath('/projects/admin.jpg'),
                 link: 'https://adminmechauffer.vercel.app/'
             },
             {
                 title: 'LaEcoVida Boutique',
                 subtitle: 'Boutique en Ligne Spécialisée',
                 description: 'Espace e-commerce dédié à l\'achat direct des produits thermiques LaEcoVida, avec un tunnel d\'achat fluide pour améliorer les conversions.',
-                image: '/projects/boutique.jpg',
+                image: withBasePath('/projects/boutique.jpg'),
                 link: 'https://merechauffer-ddc.vercel.app/boutique'
             }
         ],

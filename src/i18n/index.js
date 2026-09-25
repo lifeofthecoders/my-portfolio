@@ -1,12 +1,13 @@
 import { en } from './en';
 import { fr } from './fr';
 import { ar } from './ar';
+import { withBasePath } from '@/lib/basePath';
 
 export const locales = { en, fr, ar };
 export const localeList = [
-    { code: 'en', name: 'English', flag: '/flags/en.svg' },
-    { code: 'fr', name: 'Français', flag: '/flags/fr.svg' },
-    { code: 'ar', name: 'العربية', flag: '/flags/sa.svg' },
+    { code: 'en', name: 'English', flag: withBasePath('/flags/en.svg') },
+    { code: 'fr', name: 'Français', flag: withBasePath('/flags/fr.svg') },
+    { code: 'ar', name: 'العربية', flag: withBasePath('/flags/sa.svg') },
 ];
 
 /**

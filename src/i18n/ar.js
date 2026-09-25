@@ -1,3 +1,5 @@
+import { withBasePath } from '@/lib/basePath';
+
 export const ar = {
     dir: 'rtl',
     langName: 'العربية',
@@ -62,28 +64,28 @@ export const ar = {
                 title: 'LaEcoVida',
                 subtitle: 'منصة التجارة الإلكترونية الرئيسية',
                 description: 'الواجهة الرئيسية لـ LaEcoVida للمعدات الحرارية والمضخات الحرارية. تم تطويرها بواسطة Next.js لأداء سريع وتحسين محركات البحث.',
-                image: '/projects/laecovida.jpg',
+                image: withBasePath('/projects/laecovida.jpg'),
                 link: 'https://merechauffer-ddc.vercel.app/'
             },
             {
                 title: 'Enrgestion',
                 subtitle: 'نظام إدارة الطاقة',
                 description: 'منصة شاملة لإدارة وتحسين موارد الطاقة. تتميز بلوحة تحكم بديهية مع عرض البيانات في الوقت الفعلي.',
-                image: '/projects/enrgestion.jpg',
+                image: withBasePath('/projects/enrgestion.jpg'),
                 link: 'https://enrgestion.vercel.app/'
             },
             {
                 title: 'LaEcoVida Admin',
                 subtitle: 'لوحة التحكم الإدارية',
                 description: 'المركز الرئيسي لإدارة المخزون وعروض الأسعار وتفاعلات العملاء لـ LaEcoVida. مبنية مع التركيز على الأمان وسرعة سير العمل.',
-                image: '/projects/admin.jpg',
+                image: withBasePath('/projects/admin.jpg'),
                 link: 'https://adminmechauffer.vercel.app/'
             },
             {
                 title: 'LaEcoVida Boutique',
                 subtitle: 'متجر إلكتروني متخصص',
                 description: 'مساحة تجارة إلكترونية مخصصة للشراء المباشر لمنتجات LaEcoVida الحرارية، مع مسار شراء سلس وتجربة مستخدم ممتازة.',
-                image: '/projects/boutique.jpg',
+                image: withBasePath('/projects/boutique.jpg'),
                 link: 'https://merechauffer-ddc.vercel.app/boutique'
             }
         ],

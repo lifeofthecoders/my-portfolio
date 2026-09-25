@@ -1,3 +1,5 @@
+import { withBasePath } from '@/lib/basePath';
+
 export const projects = [
     {
         id: 1,
@@ -10,7 +12,7 @@ export const projects = [
         year: '2025',
         link: 'https://merechauffer-ddc.vercel.app/',
         github: '#',
-        image: '/projects/laecovida.jpg',
+        image: withBasePath('/projects/laecovida.jpg'),
     },
     {
         id: 2,
@@ -23,7 +25,7 @@ export const projects = [
         year: '2025',
         link: 'https://enrgestion.vercel.app/',
         github: '#',
-        image: '/projects/enrgestion.jpg',
+        image: withBasePath('/projects/enrgestion.jpg'),
     },
     {
         id: 3,
@@ -36,7 +38,7 @@ export const projects = [
         year: '2025',
         link: 'https://adminmechauffer.vercel.app/',
         github: '#',
-        image: '/projects/admin.jpg',
+        image: withBasePath('/projects/admin.jpg'),
     },
     {
         id: 4,
@@ -49,6 +51,6 @@ export const projects = [
         year: '2025',
         link: 'https://merechauffer-ddc.vercel.app/boutique',
         github: '#',
-        image: '/projects/boutique.jpg',
+        image: withBasePath('/projects/boutique.jpg'),
     }
 ];

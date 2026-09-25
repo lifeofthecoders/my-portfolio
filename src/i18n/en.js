@@ -1,3 +1,5 @@
+import { withBasePath } from '@/lib/basePath';
+
 export const en = {
     dir: 'ltr',
     langName: 'English',
@@ -67,28 +69,28 @@ export const en = {
                 title: 'LaEcoVida',
                 subtitle: 'Main E-Commerce Platform',
                 description: 'The primary showcase for LaEcoVida thermal equipment and heat pumps. Built with Next.js for blazing-fast performance and SEO.',
-                image: '/projects/laecovida.jpg',
+                image: withBasePath('/projects/laecovida.jpg'),
                 link: 'https://merechauffer-ddc.vercel.app/'
             },
             {
                 title: 'Enrgestion',
                 subtitle: 'Energy Management System',
                 description: 'A comprehensive platform for managing and optimizing energy resources. Features an intuitive dashboard with real-time data visualization.',
-                image: '/projects/enrgestion.jpg',
+                image: withBasePath('/projects/enrgestion.jpg'),
                 link: 'https://enrgestion.vercel.app/'
             },
             {
                 title: 'LaEcoVida Admin',
                 subtitle: 'Administrative Dashboard',
                 description: 'The central hub for managing inventory, quotes, and client interactions for LaEcoVida. Built with a focus on security and fast workflows.',
-                image: '/projects/admin.jpg',
+                image: withBasePath('/projects/admin.jpg'),
                 link: 'https://adminmechauffer.vercel.app/'
             },
             {
                 title: 'LaEcoVida Boutique',
                 subtitle: 'Specialized Online Store',
                 description: 'A dedicated e-commerce space for direct purchases of LaEcoVida thermal products, featuring a frictionless checkout funnel.',
-                image: '/projects/boutique.jpg',
+                image: withBasePath('/projects/boutique.jpg'),
                 link: 'https://merechauffer-ddc.vercel.app/boutique'
             }
         ],

@@ -1,16 +1,16 @@
 /** @type {import('next').NextConfig} */
 
-const isGithubPages = process.env.DEPLOY_TARGET === 'github-pages';
+const isGitHubPages = process.env.DEPLOY_TARGET === 'github-pages';
+const basePath = isGitHubPages ? (process.env.NEXT_PUBLIC_BASE_PATH || '/my-portfolio') : '';
 
 const nextConfig = {
-  // Static export is only needed for GitHub Pages. Local Next.js dev/start should
-  // keep the normal app router behavior so '/' resolves without a 404.
-  ...(isGithubPages && { output: 'export' }),
-  ...(isGithubPages && { trailingSlash: true }),
+  output: isGitHubPages ? 'export' : undefined,
+  trailingSlash: isGitHubPages,
 
-  // GitHub Pages only
-  basePath: isGithubPages ? '/my-portfolio' : '',
-  assetPrefix: isGithubPages ? '/my-portfolio/' : '',
+  // Local: /
+  // GitHub Pages: /my-portfolio
+  basePath,
+  assetPrefix: basePath ? `${basePath}/` : '',
 
   compiler: {
     styledComponents: true,

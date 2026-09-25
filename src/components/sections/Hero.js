@@ -7,6 +7,7 @@ import useIsMobile from '@/lib/useIsMobile';
 import { FiArrowDown, FiGithub, FiLinkedin, FiInstagram } from 'react-icons/fi';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { withBasePath } from '@/lib/basePath';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -27,7 +28,7 @@ const HOVER_LOOP_FPS = 10; // Slower for the idle-like loop pose
 const LOOP_PAUSE_MS = 2000;
 
 const buildFramePaths = (folder, count) =>
-  Array.from({ length: count }, (_, i) => `/avatar/${folder}/frame_${String(i + 1).padStart(3, '0')}.webp`);
+  Array.from({ length: count }, (_, i) => withBasePath(`/avatar/${folder}/frame_${String(i + 1).padStart(3, '0')}.webp`));
 
 
 /* ══════════════════════════════════════════

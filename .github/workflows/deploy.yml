@@ -37,6 +37,7 @@ jobs:
         run: npm run build
         env:
           DEPLOY_TARGET: github-pages
+          NEXT_PUBLIC_BASE_PATH: /my-portfolio
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
