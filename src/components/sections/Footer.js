@@ -148,9 +148,9 @@ const FooterBody = styled.div`
 `;
 
 const FooterInner = styled.div`
-  max-width: 1280px; margin: 0 auto; padding: 4rem 2rem 0;
+  max-width: 1280px; margin: 0 auto; padding: 2rem 2rem 2rem;
   display: grid;
-  grid-template-columns: 2.2fr 1fr 1fr 1.2fr;
+  grid-template-columns: 2.2fr 1fr 1fr 2.2fr;
   gap: 3rem;
   @media (max-width: 1024px) { grid-template-columns: 1fr 1fr; }
   @media (max-width: 600px) { grid-template-columns: 1fr; }
@@ -270,7 +270,7 @@ const BottomBar = styled.div`
   padding: 1.5rem 2rem;
   display: flex; justify-content: space-between; align-items: center;
   border-top: 1px solid ${({ theme }) => theme.colors.border};
-  margin-top: 3rem;
+  margin-top: 2rem;
   @media (max-width: 600px) { flex-direction: column; gap: 1rem; text-align: center; }
 `;
 
