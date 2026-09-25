@@ -402,7 +402,7 @@ export default function Contact() {
   };
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('mehdi@example.com').catch(() => {});
+    navigator.clipboard.writeText('sumitpanchal5225@gmail.com').catch(() => {});
     setCopiedEmail(true);
     setTimeout(() => setCopiedEmail(false), 2000);
   };
@@ -447,7 +447,7 @@ export default function Contact() {
                 <InfoCardContent>
                   <InfoCardLabel>{t('contact.email')}</InfoCardLabel>
                   <InfoCardValue>
-                    {copiedEmail ? <span style={{ color: '#10b981' }}>{t('contact.copiedSucc') || 'Copied ✓'}</span> : 'mehdi@example.com'} 
+                    {copiedEmail ? <span style={{ color: '#10b981' }}>{t('contact.copiedSucc') || 'Copied ✓'}</span> : 'sumitpanchal5225@gmail.com'} 
                     {!copiedEmail && <CopyHint>{t('contact.copyHint') || 'click to copy'}</CopyHint>}
                   </InfoCardValue>
                 </InfoCardContent>
@@ -462,20 +462,20 @@ export default function Contact() {
                 </InfoCardIcon>
                 <InfoCardContent>
                   <InfoCardLabel>{t('contact.location')}</InfoCardLabel>
-                  <InfoCardValue>{t('contact.locationValue') || 'Morocco, MA'}</InfoCardValue>
+                  <InfoCardValue>{t('contact.locationValue') || 'Ahmedabad'}</InfoCardValue>
                 </InfoCardContent>
               </InfoCard>
             </ContactInfoCards>
 
             <SocialsLabel>{t('contact.findMeOn') || 'Find me on'}</SocialsLabel>
             <SocialsRow>
-              <SocialBtn href="https://github.com/ElMehdiBekkous" target="_blank" title="GitHub">
+              <SocialBtn href="https://github.com/lifeofthecoders" target="_blank" title="GitHub">
                 <FaGithub />
               </SocialBtn>
-              <SocialBtn href="https://www.linkedin.com/in/el-mehdi-bekkous/" target="_blank" title="LinkedIn">
+              <SocialBtn href="https://www.linkedin.com/in/sumit-panchal-b790a8236/" target="_blank" title="LinkedIn">
                 <FaLinkedinIn />
               </SocialBtn>
-              <SocialBtn href="https://www.instagram.com/mehdibekkousse/" target="_blank" title="Instagram">
+              <SocialBtn href="https://www.instagram.com/workhard2livelarge?igsh=MmM0YmZvNHc0bDZ2" target="_blank" title="Instagram">
                 <FaInstagram />
               </SocialBtn>
             </SocialsRow>

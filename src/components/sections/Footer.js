@@ -330,7 +330,7 @@ export default function Footer() {
             </CtaBtn>
           </MagneticButton>
           <MagneticButton>
-            <CtaBtnOutline href="https://github.com/ElMehdiBekkous" target="_blank">
+            <CtaBtnOutline href="https://github.com/lifeofthecoders" target="_blank">
               <FaGithub /> GitHub
             </CtaBtnOutline>
           </MagneticButton>
@@ -357,9 +357,9 @@ export default function Footer() {
             </BrandRow>
             <BrandDesc>{t('footer.brandDesc')}</BrandDesc>
             <FooterSocials>
-              <SocialBtn href="https://github.com/ElMehdiBekkous" target="_blank" title="GitHub"><FaGithub /></SocialBtn>
-              <SocialBtn href="https://www.linkedin.com/in/el-mehdi-bekkous/" target="_blank" title="LinkedIn"><FaLinkedinIn /></SocialBtn>
-              <SocialBtn href="https://www.instagram.com/mehdibekkousse/" target="_blank" title="Instagram"><FaInstagram /></SocialBtn>
+              <SocialBtn href="https://github.com/lifeofthecoders" target="_blank" title="GitHub"><FaGithub /></SocialBtn>
+              <SocialBtn href="https://www.linkedin.com/in/sumit-panchal-b790a8236/" target="_blank" title="LinkedIn"><FaLinkedinIn /></SocialBtn>
+              <SocialBtn href="https://www.instagram.com/workhard2livelarge?igsh=MmM0YmZvNHc0bDZ2" target="_blank" title="Instagram"><FaInstagram /></SocialBtn>
             </FooterSocials>
           </BrandCol>
 
@@ -384,7 +384,7 @@ export default function Footer() {
           <StatusCard>
             <StatusTitle>{t('footer.statusTitle') || 'Current Status'}</StatusTitle>
             <StatusBadge><GreenDot /> {t('contact.availableStatus') || 'Available for freelance'}</StatusBadge>
-            <EmailRow><FiMail size={12} /> mehdi@example.com</EmailRow>
+            <EmailRow><FiMail size={12} /> sumitpanchal5225@gmail.com</EmailRow>
             <StatusBtn href="#contact" onClick={e => { e.preventDefault(); handleClick('contact'); }}>
               {t('nav.letsTalk')} →
             </StatusBtn>

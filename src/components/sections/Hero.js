@@ -1414,9 +1414,9 @@ export default function Hero() {
           </HeroActions>
 
           <SocialLinks>
-            <SocialIcon href="https://github.com/ElMehdiBekkous" target="_blank" rel="noopener noreferrer"><FiGithub /></SocialIcon>
-            <SocialIcon href="https://www.linkedin.com/in/el-mehdi-bekkous/" target="_blank" rel="noopener noreferrer"><FiLinkedin /></SocialIcon>
-            <SocialIcon href="https://www.instagram.com/mehdibekkousse/" target="_blank" rel="noopener noreferrer"><FiInstagram /></SocialIcon>
+            <SocialIcon href="https://github.com/lifeofthecoders" target="_blank" rel="noopener noreferrer"><FiGithub /></SocialIcon>
+            <SocialIcon href="https://www.linkedin.com/in/sumit-panchal-b790a8236/" target="_blank" rel="noopener noreferrer"><FiLinkedin /></SocialIcon>
+            <SocialIcon href="https://www.instagram.com/workhard2livelarge?igsh=MmM0YmZvNHc0bDZ2" target="_blank" rel="noopener noreferrer"><FiInstagram /></SocialIcon>
           </SocialLinks>
         </TextColumn>
 
