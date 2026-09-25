@@ -1470,7 +1470,7 @@ export default function Hero() {
             <AvatarFrame
               ref={frameImgRef}
               role="img"
-              aria-label="El Mehdi Bekkous 3D Avatar"
+              aria-label="Sumit Panchal 3D Avatar"
             />
           </AvatarWrapper>
         </AvatarColumn>

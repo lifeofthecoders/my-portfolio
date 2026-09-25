@@ -18,8 +18,8 @@ export const en = {
     // Hero
     hero: {
         greeting: "👋 Hello, I'm",
-        name: 'El Mehdi',
-        lastName: 'Bekkous',
+        name: 'Sumit',
+        lastName: 'Panchal',
         subtitle: 'Full-Stack Web Developer specializing in building exceptional digital experiences with',
         subtitleHighlight: 'Next.js',
         subtitleEnd: '& modern technologies.',
@@ -156,7 +156,7 @@ export const en = {
 
     // Footer
     footer: {
-        brand: 'El Mehdi Bekkous',
+        brand: 'Sumit Panchal',
         brandDesc: 'Full-Stack Web Developer specializing in Next.js and modern web technologies. Building digital experiences that matter.',
         quickLinks: 'Quick Links',
         services: 'Services',
@@ -164,7 +164,7 @@ export const en = {
         uiux: 'UI/UX Design',
         apiDev: 'API Development',
         consulting: 'Consulting',
-        copyright: '© {year} El Mehdi Bekkous. Made with',
+        copyright: '© {year} Sumit Panchal. Made with',
         backToTop: 'Back to top',
         ctaLine1: 'Ready to build',
         ctaLine2: 'something amazing?',

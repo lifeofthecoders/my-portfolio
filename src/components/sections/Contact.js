@@ -100,16 +100,21 @@ const SectionTitle = styled.h1`
   font-family: ${({ theme }) => theme.fonts?.primary || "'Syne', sans-serif"};
   font-size: clamp(52px, 8vw, 96px);
   font-weight: 800;
-  line-height: 0.95;
+  line-height: 0.82;
   letter-spacing: -0.03em;
   margin-bottom: 16px;
   opacity: 0;
+  overflow: visible;
   animation: ${fadeUp} 0.6s ease 0.1s forwards;
 `;
 const TitleLine1 = styled.div`
   color: ${({ theme }) => theme.colors.text};
+  display: block;
+  white-space: normal;
 `;
 const TitleLine2 = styled.div`
+  display: block;
+  white-space: normal;
   -webkit-text-stroke: 1.5px ${({ theme }) => theme.colors.border};
   color: transparent;
   ${({ $accent, theme }) => $accent && `

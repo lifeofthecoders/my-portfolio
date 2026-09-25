@@ -4,12 +4,12 @@ import { LanguageProvider } from '@/context/LanguageContext';
 import GlobalStyles from '@/styles/GlobalStyles';
 
 export const metadata = {
-    title: 'El Mehdi Bekkous — Full-Stack Web Developer',
-    description: 'Portfolio of El Mehdi Bekkous, a Full-Stack Web Developer specializing in Next.js, React, and modern web technologies. Building exceptional digital experiences.',
-    keywords: ['web developer', 'full-stack', 'next.js', 'react', 'portfolio', 'El Mehdi Bekkous'],
-    authors: [{ name: 'El Mehdi Bekkous' }],
+    title: 'Sumit Panchal — Full-Stack Web Developer',
+    description: 'Portfolio of Sumit Panchal, a Full-Stack Web Developer specializing in Next.js, React, and modern web technologies. Building exceptional digital experiences.',
+    keywords: ['web developer', 'full-stack', 'next.js', 'react', 'portfolio', 'Sumit Panchal'],
+    authors: [{ name: 'Sumit Panchal' }],
     openGraph: {
-        title: 'El Mehdi Bekkous — Full-Stack Web Developer',
+        title: 'Sumit Panchal — Full-Stack Web Developer',
         description: 'Full-Stack Web Developer specializing in Next.js & modern technologies.',
         type: 'website',
     },

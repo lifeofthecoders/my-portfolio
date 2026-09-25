@@ -16,8 +16,8 @@ export const ar = {
 
     hero: {
         greeting: '👋 مرحباً، أنا',
-        name: 'المهدي',
-        lastName: 'بكوس',
+        name: 'سميث',
+        lastName: 'بانشال',
         subtitle: 'مطور ويب Full-Stack متخصص في إنشاء تجارب رقمية استثنائية باستخدام',
         subtitleHighlight: 'Next.js',
         subtitleEnd: 'والتقنيات الحديثة.',
@@ -148,7 +148,7 @@ export const ar = {
     },
 
     footer: {
-        brand: 'المهدي بكوس',
+        brand: 'سميث بانشال',
         brandDesc: 'مطور ويب Full-Stack متخصص في Next.js والتقنيات الحديثة. بناء تجارب رقمية ذات قيمة.',
         quickLinks: 'روابط سريعة',
         services: 'الخدمات',
@@ -156,7 +156,7 @@ export const ar = {
         uiux: 'تصميم UI/UX',
         apiDev: 'تطوير API',
         consulting: 'استشارات',
-        copyright: '© {year} المهدي بكوس. صنع بـ',
+        copyright: '© {year} سميث بانشال. صنع بـ',
         backToTop: 'العودة للأعلى',
         ctaLine1: 'جاهز لبناء',
         ctaLine2: 'شيء رائع معا؟',

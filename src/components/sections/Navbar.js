@@ -5,7 +5,7 @@ import { useTheme } from '@/context/ThemeContext';
 import { useLanguage } from '@/context/LanguageContext';
 import { localeList } from '@/i18n';
 import { FiSun, FiMoon, FiMenu, FiX, FiGlobe, FiChevronDown } from 'react-icons/fi';
-import LogoIcon from '@/components/Logo';
+import { withBasePath } from '@/lib/basePath';
 
 const scrollDown = keyframes`
   0% { transform: translateY(-100%); opacity: 0; }
@@ -42,11 +42,14 @@ const LogoLink = styled.a`
   align-items: center;
   cursor: pointer;
   
-  svg {
+  img {
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
     transition: transform 0.3s ease;
   }
   
-  &:hover svg {
+  &:hover img {
     transform: scale(1.05);
   }
 `;
@@ -300,7 +303,7 @@ export default function Navbar() {
       <Nav $scrolled={scrolled}>
         <NavContainer>
           <LogoLink href="#" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <LogoIcon width="64px" />
+            <img src={withBasePath('/icon.svg')} alt="Sumit Panchal logo" />
           </LogoLink>
 
           <NavLinks $open={menuOpen} $isRTL={isRTL}>

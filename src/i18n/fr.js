@@ -16,8 +16,8 @@ export const fr = {
 
     hero: {
         greeting: '👋 Bonjour, je suis',
-        name: 'El Mehdi',
-        lastName: 'Bekkous',
+        name: 'Sumit',
+        lastName: 'Panchal',
         subtitle: 'Développeur Web Full-Stack spécialisé dans la création d\'expériences numériques exceptionnelles avec',
         subtitleHighlight: 'Next.js',
         subtitleEnd: '& les technologies modernes.',
@@ -148,7 +148,7 @@ export const fr = {
     },
 
     footer: {
-        brand: 'El Mehdi Bekkous',
+        brand: 'Sumit Panchal',
         brandDesc: 'Développeur Web Full-Stack spécialisé en Next.js et technologies web modernes. Créer des expériences numériques qui comptent.',
         quickLinks: 'Liens Rapides',
         services: 'Services',
@@ -156,7 +156,7 @@ export const fr = {
         uiux: 'Design UI/UX',
         apiDev: 'Développement API',
         consulting: 'Consulting',
-        copyright: '© {year} El Mehdi Bekkous. Fait avec',
+        copyright: '© {year} Sumit Panchal. Fait avec',
         backToTop: 'Retour en haut',
         ctaLine1: 'Prêt à construire',
         ctaLine2: 'quelque chose d\'amazing ?',

@@ -226,7 +226,7 @@ export default function Preloader() {
               <g transform="translate(830, 540)">
                 <g className="text-slide-anim" style={{ direction: 'ltr' }}>
                   <text className="text-name" x="0" y="10" textAnchor="start">
-                    {language === 'ar' ? 'المهدي بكوس' : 'EL MEHDI BEKKOUS'}
+                    {language === 'ar' ? 'سميث بانشال' : 'SUMIT PANCHAL'}
                   </text>
                   <text className="text-title" x="5" y="65" textAnchor="start">
                     {language === 'ar' ? 'مطور ويب متكامل' : language === 'fr' ? 'DÉVELOPPEUR WEB' : 'WEB APP DEVELOPER'}

@@ -4,6 +4,7 @@ import styled, { useTheme } from 'styled-components';
 import * as THREE from 'three';
 import { useLanguage } from '@/context/LanguageContext';
 import useIsMobile from '@/lib/useIsMobile';
+import { withBasePath } from '@/lib/basePath';
 
 const AboutSection = styled.section`
   position: relative;
@@ -235,7 +236,7 @@ export default function About() {
 
     // LOAD EXPERT PHOTO AS PNG
     const textureLoader = new THREE.TextureLoader();
-    const photoTexture = textureLoader.load('/mehdi photo professionel.png');
+    const photoTexture = textureLoader.load(withBasePath('/mehdi photo professionel.png'));
 
     const mats = {
       wood: new THREE.MeshStandardMaterial({ color: 0x5c4033, roughness: 0.8, name: "wood" }),
